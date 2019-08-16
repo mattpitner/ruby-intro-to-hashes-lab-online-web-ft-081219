@@ -4,7 +4,6 @@ end
 
 def actor
   actor[:name]
-actor
 end
 
 def monopoly
