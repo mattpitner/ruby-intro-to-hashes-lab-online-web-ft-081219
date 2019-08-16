@@ -48,7 +48,7 @@ describe "building a multidimensional monopoly hash" do
         expect(monopoly_with_second_tier[:railroads][:names]).to eq({})
       end
 
-      xit "sets the third key of the :railroads hash to a symbol, :rent_in_dollars, whose value is an empty hash " do
+      it "sets the third key of the :railroads hash to a symbol, :rent_in_dollars, whose value is an empty hash " do
 
         expect(monopoly_with_second_tier[:railroads][:rent_in_dollars]).to eq({})
         expect(monopoly_with_second_tier.values[0].keys).to eq([:pieces, :names, :rent_in_dollars])
